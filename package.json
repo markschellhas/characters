@@ -1,22 +1,43 @@
 {
   "name": "@characters",
   "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "A collection of scoped character modules for import.",
   "author": {
     "name": "Mark Schellhas",
     "email": "mail@schmail.email",
     "url": "https://www.markschellhas.com"
   },
-  "private": true,
-  "workspaces": [
-    "@characters/packages/*"
-  ],
-  "description": "A collection of character modules for import.",
   "license": "MIT",
-  "scripts": {
-    "build": "echo 'Build script for all packages'",
-    "publish-all": "lerna publish"
-  },
-  "devDependencies": {
-    "lerna": "^8.1.9"
+  "main": "index.js",
+  "exports": "./index.js",
+  "dependencies": {
+    "@characters/a": "^1.0.0",
+    "@characters/b": "^1.0.0",
+    "@characters/c": "^1.0.0",
+    "@characters/d": "^1.0.0",
+    "@characters/e": "^1.0.0",
+    "@characters/f": "^1.0.0",
+    "@characters/g": "^1.0.0",
+    "@characters/h": "^1.0.0",
+    "@characters/i": "^1.0.0",
+    "@characters/j": "^1.0.0",
+    "@characters/k": "^1.0.0",
+    "@characters/l": "^1.0.0",
+    "@characters/m": "^1.0.0",
+    "@characters/n": "^1.0.0",
+    "@characters/o": "^1.0.0",
+    "@characters/p": "^1.0.0",
+    "@characters/q": "^1.0.0",
+    "@characters/r": "^1.0.0",
+    "@characters/s": "^1.0.0",
+    "@characters/t": "^1.0.0",
+    "@characters/u": "^1.0.0",
+    "@characters/v": "^1.0.0",
+    "@characters/w": "^1.0.0",
+    "@characters/x": "^1.0.0",
+    "@characters/y": "^1.0.0",
+    "@characters/z": "^1.0.0"
   }
 }
