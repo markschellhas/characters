@@ -1,0 +1,12 @@
+{
+  "name": "@characters/s",
+  "version": "1.0.0",
+  "author": {
+    "name": "Mark Schellhas",
+    "email": "mail@schmail.email",
+    "url": "https://www.markschellhas.com"
+  },
+  "main": "index.js",
+  "description": "The letter S module.",
+  "license": "MIT"
+}

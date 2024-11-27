@@ -1,0 +1,22 @@
+{
+  "name": "@characters",
+  "version": "1.0.0",
+  "author": {
+    "name": "Mark Schellhas",
+    "email": "mail@schmail.email",
+    "url": "https://www.markschellhas.com"
+  },
+  "private": true,
+  "workspaces": [
+    "@characters/packages/*"
+  ],
+  "description": "A collection of character modules for import.",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo 'Build script for all packages'",
+    "publish-all": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.9"
+  }
+}
